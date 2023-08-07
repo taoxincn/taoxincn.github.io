@@ -4,7 +4,7 @@ date:   2021-05-07 23:19:00 +0800
 categories: [运维, 容器]
 tags: [Podman]
 image:
-  path: /images/posts/podman.png
+  path: /images/posts/podman2.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Podman重启自动运行容器
 ---
