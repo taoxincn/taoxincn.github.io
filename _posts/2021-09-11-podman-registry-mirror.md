@@ -9,8 +9,6 @@ image:
   alt: 为Podman配置加速器
 ---
 
-![Desktop View](https://podman.io/assets/images/podman-logo-dark-9ddc71368309ef9bd7163aa5ad850398.png)
-
 在使用Podman拉取DockerHub的镜像时，由于网络原因，经常会拉取很慢或拉取失败，好在国内有科研机构和互联网厂商提供了DockerHub加速器，配置方法如下：
 
 1. 使用vi或者其他文本修改工具修改配置文件`/etc/containers/registries.conf`，修改前最好备份一下
@@ -35,3 +33,5 @@ location = "docker.mirrors.ustc.edu.cn"
 可以[点此查看](https://github.com/docker-practice/docker-registry-cn-mirror-test/actions)各加速器的可用情况。
 
 这时候pull镜像，速度就快很多了。
+
+![Desktop View](https://podman.io/assets/images/podman-logo-dark-9ddc71368309ef9bd7163aa5ad850398.png)
