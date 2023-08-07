@@ -1,11 +1,15 @@
 ---
-layout: post
-title:  "为Podman配置加速器"
-date:   2021-09-11 22:19
-categories: 运维 容器
+title:  为Podman配置加速器
+date:   2021-09-11 22:19:00 +0800
+categories: [运维, 容器]
+tags: [Podman]
+image:
+  path: /images/posts/podman.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: 为Podman配置加速器
 ---
 
-![Desktop View](https://podman.io/assets/images/podman-logo-dark-9ddc71368309ef9bd7163aa5ad850398.png){: .left }
+![Desktop View](https://podman.io/assets/images/podman-logo-dark-9ddc71368309ef9bd7163aa5ad850398.png)
 
 在使用Podman拉取DockerHub的镜像时，由于网络原因，经常会拉取很慢或拉取失败，好在国内有科研机构和互联网厂商提供了DockerHub加速器，配置方法如下：
 
