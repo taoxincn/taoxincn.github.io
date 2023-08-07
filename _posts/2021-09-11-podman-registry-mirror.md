@@ -5,6 +5,8 @@ date:   2021-09-11 22:19
 categories: 运维 容器
 ---
 
+![Desktop View](https://podman.io/assets/images/podman-logo-dark-9ddc71368309ef9bd7163aa5ad850398.png){: .left }
+
 在使用Podman拉取DockerHub的镜像时，由于网络原因，经常会拉取很慢或拉取失败，好在国内有科研机构和互联网厂商提供了DockerHub加速器，配置方法如下：
 
 1. 使用vi或者其他文本修改工具修改配置文件`/etc/containers/registries.conf`，修改前最好备份一下
