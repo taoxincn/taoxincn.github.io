@@ -1,0 +1,36 @@
+<!-- The Footer -->
+
+<footer>
+  <div class="container px-lg-4">
+    <div class="d-flex justify-content-center align-items-center text-muted mx-md-3">
+      <p>
+        {%- capture _platform -%}
+          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+        {%- endcapture -%}
+
+        {%- capture _theme -%}
+          <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+        {%- endcapture -%}
+
+        {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+      </p>
+
+      <p><a style="display:inline-flex;align-items:center;" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img style="height: 2.5em;" src="//cdn.imni.cn/blog/upyun/logo5.png" alt="又拍云">提供CDN加速/云存储服务</a></p>
+
+      <p>
+        {{- '©' }}
+        {{ 'now' | date: '%Y' }}
+        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+        {% if site.data.locales[include.lang].copyright.brief %}
+          <span
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="{{ site.data.locales[include.lang].copyright.verbose }}"
+          >
+            {{- site.data.locales[include.lang].copyright.brief -}}
+          </span>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</footer>
