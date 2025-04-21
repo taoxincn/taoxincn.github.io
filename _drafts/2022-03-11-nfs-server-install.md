@@ -9,7 +9,6 @@ tags: [NFS]
 
 ## NFS服务端安装
 
-
 安装NFS客户端并挂载
 CentOS
 ```sh
